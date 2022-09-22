@@ -6,4 +6,4 @@ files:
 hooks:
   AfterInstall:
     - location: start_server
-      timeout: 1000
+      timeout: 3000
