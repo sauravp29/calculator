@@ -1,9 +1,9 @@
 #!/bin/bash
-sudo chown -R $USER /var/www/html/calculator
+sudo chown -R $USER /var/www/html
 cd ~
 curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh
 sudo bash /tmp/nodesource_setup.sh
 sudo apt install nodejs
-cd /var/www/html/calculator
+cd /var/www/html
 npm install
 npm start 
