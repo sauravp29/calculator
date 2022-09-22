@@ -1,4 +1,4 @@
 #!/bin/bash
 sudo chown -R $USER /var/www/html/calculator
-npm install
-npm start 
+sudo npm install
+sudo npm start 
