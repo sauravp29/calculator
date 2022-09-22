@@ -1,3 +1,3 @@
 #!/bin/bash
-npm install
-npm start
+sudo apt install npm
+sudo apt start npm 
