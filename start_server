@@ -1,5 +1,4 @@
 #!/bin/bash
 sudo chown -R $USER /var/www/html/calculator
-sudo apt install nodejs npm
 npm install
 npm start 
