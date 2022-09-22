@@ -6,4 +6,4 @@ sudo bash /tmp/nodesource_setup.sh
 sudo apt install nodejs
 cd /var/www/html
 npm install
-npm start 
+npm start &
